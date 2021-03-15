@@ -34,6 +34,28 @@
             height: 304px;
             background-color: burlywood;
             margin-bottom: 55px;
+            padding-top: 40px;
+            text-align: center;
+            color: $white;
+            font-family: Proxima;
+
+        h1{
+            font-size: $proxima-title;
+            margin-bottom: 0;
+        }
+        h3{
+            font-size: 30px;
+        }
+
+        button{
+            margin: 24px 0;
+            background-color: $site-blue;
+            color: $white;
+            border: none;
+            border-radius: 20px;
+            width: 133px;
+            height:40px;
+        }
             
         }
     }
