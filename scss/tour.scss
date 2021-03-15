@@ -25,7 +25,7 @@
         @include center(818px, 48px auto 0 auto);
         // max-width: 818px;
         min-height: 200px;
-        background-color: aquamarine;
+        // background-color: aquamarine;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -35,6 +35,19 @@
             background-color: burlywood;
             margin-bottom: 55px;
             
+        }
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .tour{
+        padding: 10px;
+        header{
+            width: 600px;
+        }
+        .tours{
+            flex-direction: column;
+            align-items: center;
         }
     }
 }

@@ -415,7 +415,6 @@ footer .media {
   max-width: 818px;
   margin: 48px auto 0 auto;
   min-height: 200px;
-  background-color: aquamarine;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -425,4 +424,17 @@ footer .media {
   height: 304px;
   background-color: burlywood;
   margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 800px) {
+  .tour {
+    padding: 10px;
+  }
+  .tour header {
+    width: 600px;
+  }
+  .tour .tours {
+    flex-direction: column;
+    align-items: center;
+  }
 }
