@@ -432,9 +432,11 @@ footer .media {
 .tour .tours .tourPromo h1 {
   font-size: 60px;
   margin-bottom: 0;
+  font-weight: lighter;
 }
 .tour .tours .tourPromo h3 {
   font-size: 30px;
+  font-weight: lighter;
 }
 .tour .tours .tourPromo button {
   margin: 24px 0;
@@ -546,7 +548,59 @@ footer .media {
   width: 298px;
   background-color: cadetblue;
 }
+.individual-tour .text-container .day {
+  margin-bottom: 80px;
+}
+.individual-tour .text-container .day h3 {
+  font-weight: lighter;
+  font-size: 60px;
+  font-family: Proxima;
+}
+.individual-tour .text-container .day hr {
+  margin-top: -20px;
+  margin-bottom: 38px;
+  width: 171px;
+  height: 3px;
+  background-color: black;
+}
+.individual-tour .text-container .day p {
+  font-family: Gill;
+  font-size: 16px;
+}
+.individual-tour .button-container {
+  margin: 0 auto 100px auto;
+  width: 133px;
+}
+.individual-tour .button-container button {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background-color: #79ADDC;
+  color: #fff;
+}
 
+@media only screen and (max-width: 900px) {
+  .individual-tour {
+    padding: 20px;
+  }
+  .individual-tour .header {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .individual-tour .promo-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .individual-tour .promo-images .promo-img {
+    margin-bottom: 15px;
+  }
+  .individual-tour .text-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
 .israel-hero {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
   background-repeat: no-repeat;
@@ -570,6 +624,62 @@ footer .media {
 
 .israel-3 {
   background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.usa-hero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.usa-1 {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.usa-2 {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.usa-3 {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.australia-hero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.australia-1 {
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.australia-2 {
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.australia-3 {
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

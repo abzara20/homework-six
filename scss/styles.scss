@@ -10,10 +10,20 @@
 
 @import "about.scss";
 
-@import "tours/tour.scss";
-@import "tours/tour-backgrounds.scss";
+@import "tour.scss";
+@import "tour-backgrounds.scss";
 
 // pages of the individual tours
-@import "tours/template-tour.scss";
 
+//template
+@import "tours/template-tour.scss";
+//background images
 @import "tours/israel-tour.scss";
+@import "tours/usa-tour.scss";
+@import "tours/australia-tour.scss";
+@import "tours/zealand-tour.scss";
+@import "tours/france-tour.scss";
+@import "tours/egypt-tour.scss";
+@import "tours/japan-tour.scss";
+@import "tours/canada-tour.scss";
+@import "tours/uae-tour.scss";
