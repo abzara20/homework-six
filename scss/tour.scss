@@ -1,6 +1,7 @@
 .tour{
     header{
         @include center(980px);
+        margin-top: 50px;
         height: 200px;
         background-image: linear-gradient(
             to bottom,
@@ -63,7 +64,7 @@
     }
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:820px) {
     .tour{
         padding: 10px;
         header{
