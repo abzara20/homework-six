@@ -1,0 +1,37 @@
+.individual-tour{
+    margin: 0 auto;
+    max-width: 980px;
+    // height:413px;
+    // background-color: aquamarine;
+    .header{
+        height: 413px;
+        position: relative;
+        color: $white;
+        font-family: Proxima;
+        // background-color: bisque;
+        .title{
+            font-size: 80px;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        .pricing{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-size: 30px;
+            padding-right: 10px;
+        }
+    }
+    .promo-images{
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        .promo-img{
+            height:347px;
+            width: 298px;
+            background-color: cadetblue;
+        }
+    }
+}

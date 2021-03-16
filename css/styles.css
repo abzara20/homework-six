@@ -511,3 +511,66 @@ footer .media {
   background-size: cover;
   background-position: center;
 }
+
+.individual-tour {
+  margin: 0 auto;
+  max-width: 980px;
+}
+.individual-tour .header {
+  height: 413px;
+  position: relative;
+  color: #fff;
+  font-family: Proxima;
+}
+.individual-tour .header .title {
+  font-size: 80px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.individual-tour .header .pricing {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.individual-tour .promo-images {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.individual-tour .promo-images .promo-img {
+  height: 347px;
+  width: 298px;
+  background-color: cadetblue;
+}
+
+.israel-hero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.israel-1 {
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.israel-2 {
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.israel-3 {
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
